@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">个人信息编辑系统</div>
+        <div class="content">
+            <div class="item">
+                <span>姓名</span>
+                <input id="name" data-type="name" type="text">
+            </div>
+            <div class="item">
+                <span>电话</span>
+                <input id="phone" data-type="phone" type="text">
+            </div>
+            <div class="item">
+                <span>email</span>
+                <input id="email" data-type="email" type="text">
+            </div>
+            <div class="item">
+                <span>个人宣言</span>
+                <input type="text" data-type="string" id="speak">
+            </div>
+            <div class="item" style="padding: 10px 85px;">
+                <button id="reset"> 清空</button>
+                <button id="sure">确认</button>
+            </div>
+        </div>
+    </div>
+    <script src="./lib/require.js" data-main="./main.js"></script>
+</body>
+</html>
